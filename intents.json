@@ -1,0 +1,120 @@
+{
+  "intents": [
+    {
+      "tag": "chào hỏi",
+      "patterns": [
+        "Xin chào",
+        "Chào",
+        "Chào bạn",
+        "Bác sĩ"
+      ],
+      "responses": [
+        "Rất vui được gặp bạn! Chúng tôi có thể giúp gì cho bạn?",
+        "Xin chào, Chúng tôi có thể giúp gì cho bạn?",
+        "Chào, Chúng tôi có thể giúp gì?",
+        "Chào bạn, Bạn có cần chúng tôi hỗ trợ gì không?"
+      ]
+    },
+    {
+      "tag": "tạm biệt",
+      "patterns": ["Tạm biệt bạn", "Gặp lại bạn sau", "Bye"],
+      "responses": [
+        "Rất vui được gặp bạn, tạm biệt!",
+        "Gặp lại bạn sau!",
+        "Bye! Hãy quay lại với chúng tôi nếu cần tư vấn."
+      ]
+    },
+    {
+      "tag": "cảm ơn",
+      "patterns": ["Cảm ơn", "Cảm ơn bạn", "Rất hữu ích", "Cảm ơn rất nhiều"],
+      "responses": ["Rất vui vì giúp được bạn!", "Tôi rất vui vì giúp được bạn!", "Rất hân hạnh!"]
+    },
+    {
+      "tag": "thông tin",
+      "patterns": [
+        "Tôi có thể tìm thêm các thông tin về đường tiêu hóa ở đâu?",
+        "Làm thế nào để tìm được các thông tin hữu ích về đường tiêu hóa?"
+      ],
+      "responses": [
+        "Hãy đến gặp chúng tôi tại địa chỉ: Số 100 Nguyễn Trãi, Quận Hà Đông TP.Hà Nội để nếu cần thêm sự giúp đỡ",
+        "Để có thêm nhiều thông tin hơn hãy đến: Số 100 Nguyễn Trãi, Quận Hà Đông TP.Hà Nội. Chúng tôi luôn hỗ trợ hết mình vì sức khỏe của bạn"
+      ]
+    },
+    {
+      "tag": "thực phẩm tốt cho đường tiêu hóa",
+      "patterns": [
+        "Những thực phẩm nào tốt cho đường tiêu hóa?",
+        "Nên ăn gì để tốt cho đường tiêu hóa?",
+        "Để có đường tiêu hóa khỏe mạnh nên ăn gì?",
+        "Chế độ ăn phù hợp cho người mắc các bệnh liên quan đến đường tiêu hóa là gì?",
+        "thực phẩm"
+      ],
+      "responses": [
+        "Những loại thực phẩm tốt nhất để cải thiện tiêu hóa: sữa chua, táo, các loại rau thơm (thì là, bạc hà, húng quế), gừng, ngũ cốc nguyên hạt, các loại rau có màu xanh đậm, miso, hồi, nước hầm xương",
+        "Táo, sữa chua, thì là, củ cải đỏ, chuối, khoai lang, bơ, là những thực phẩm tốt cho đường tiêu hóa"
+      ]
+    },
+    {
+      "tag": "trò chuyện",
+      "patterns": [
+        "Bạn hôm nay thế nào?",
+        "Hôm nay của bạn ra sao?"
+      ],
+      "responses": [
+        "Hôm nay là một ngày tuyện vời vì được trò chuyện với bạn",
+        "Hôm nay là một ngày đặc biệt vì tôi được gặp bạn"
+      ]
+    },
+    {
+      "tag": "bệnh",
+      "patterns": [
+        "Các bệnh tiêu hóa thường gặp?",
+        "Các bệnh tiêu hóa dễ mắc phải?",
+        "Những bệnh nào thường gặp ở đường tiêu hóa?",
+        "bệnh",
+        "bệnh thường gặp"
+      ],
+      "responses": [
+        "Một số bệnh tiêu hóa thường gặp như: Bệnh tả, Xơ gan, Loét dạ dày tá tràng, Viêm tụy cấp, Viêm gan virus B mạn tính, Viêm gan virus C, Viêm gan do rượu, Sỏi mật, Lỵ trực trùng, Lỵ Amip, Bệnh thương hàn"
+      ]
+    },
+    {
+      "tag": "nguyên nhân gây bệnh",
+      "patterns": [
+        "Nguyên nhân gây ra các bệnh đường tiêu hóa là gì?",
+        "Mắc các bệnh đường tiêu hóa nguyên nhân do đâu?",
+        "Tại sao lại mắc các bệnh đường tiêu hóa?",
+        "nguyên nhân"
+      ],
+      "responses": [
+        "Nguyên nhân dẫn đến bệnh đường tiêu hóa là từ nhiều yếu tố khác nhau. Một số nguyên do trực tiếp như: chế độ ăn không lành mạnh, không vận động nhiều, do căng thẳng, stress",
+        "Một số nguyên nhân dẫn đến bệnh đường tiêu hóa như chế độ ăn uống không phù hợp: ăn quá nhiều, thiếu chất sơ; thường xuyên stress hoặc lo lắng, lười vận động, sử dụng lượng lớn thuốc kháng sinh"
+      ]
+    },
+    {
+      "tag": "tư vấn",
+      "patterns": [
+        "Dạo này tôi thấy đường tiêu hóa đang gặp một số vấn đề hãy tư vấn khám bệnh giúp tôi.",
+        "Tôi cần bạn tư vấn chuẩn đoán bệnh về đường tiêu hóa",
+        "Tư vấn khám bệnh tiêu hóa",
+        "Hãy giúp tôi tư vấn chuẩn đoán bệnh về tiêu hóa",
+        "Tư vấn"
+      ],
+      "responses": [
+        "tư vấn"
+      ]
+    },
+    {
+      "tag": "lời khuyên",
+      "patterns": [
+        "Bạn có thể cho tôi một số lời khuyên để có đường tiêu hóa khỏe mạnh được không?",
+        "Một số lời khuyên để có đường tiêu hóa khỏe mạnh ?",
+        "lời khuyên"
+      ],
+      "responses": [
+        "Bạn nên có một chế độ ăn giàu chất sơ; luôn bổ sung đủ nước cho cơ thể; Tập luyện thể dục thường xuyên; từ bỏ các thói quen xấu như: hút thuốc lá, uống nhiều rượu bia, nhai nuốt nhanh, ăn uống không đúng bữa; Chú trọng đến chế độ ăn khoa học hàng ngày",
+        "Hãy nhai kĩ thức ăn, luôn uống đủ nước, tập thể dục thường xuyên, ăn nhiều thực phẩm giàu chất sơ và hãy lắng nghe cơ thể bạn"
+      ]
+    }
+  ]
+}
